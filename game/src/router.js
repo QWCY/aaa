@@ -8,6 +8,9 @@ import roomType from './views/guess/roomType.vue'
 import two from './views/rests/two.vue'
 import one from './views/rests/one.vue'
 import three from './views/rests/three.vue'
+import seven from './views/rests/seven.vue'
+import four from './views/rests/four.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,5 +32,7 @@ export default new Router({
 		{path: '/two',name: 'two',component: two,meta: {index: 20,}},
 		{path: '/three',name: 'three',component: three,meta: {index: 20,}},
 		{path: '/one',name: 'one',component: one,meta: {index: 20,}},
+		{path: '/seven',name: 'seven',component: seven,meta: {index: 20,}},
+		{path: '/four',name: 'four',component: four,meta: {index: 20,}},
 	]
 })
