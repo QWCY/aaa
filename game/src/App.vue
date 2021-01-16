@@ -79,12 +79,12 @@
 			let _this = this;
 			//非imtoken钱包
 			if (!window.imToken) {
-				Dialog.alert({
-					title: 'WGLS',
-					message: '请在IMTOKEN钱包中打开',
-				}).then(() => {
-					// on close
-				});
+				// Dialog.alert({
+				// 	title: 'WGLS',
+				// 	message: '请在IMTOKEN钱包中打开',
+				// }).then(() => {
+				// 	// on close
+				// });
 				return;
 			}
 			let data = {}
